@@ -1,0 +1,83 @@
+import { KPIMetric } from "@/types";
+
+export const heroMetrics: KPIMetric[] = [
+  {
+    id: "gmv",
+    label: "Gross Merchandise Value",
+    value: "$10M+",
+    prefix: "",
+    suffix: "",
+    description: "Securely processed across high-volume DTC and B2B platforms",
+    iconName: "TrendingUp",
+    change: "+140% YoY",
+  },
+  {
+    id: "uptime",
+    label: "Platform Uptime SLA",
+    value: "99.99%",
+    prefix: "",
+    suffix: "",
+    description: "Maintained during global high-traffic flash sales and Cyber Weeks",
+    iconName: "ShieldCheck",
+    change: "Zero Black Friday Downtime",
+  },
+  {
+    id: "latency",
+    label: "Edge API Latency",
+    value: "< 95ms",
+    prefix: "",
+    suffix: "",
+    description: "Sub-100ms global response time via edge computing and distributed Redis",
+    iconName: "Zap",
+    change: "-62% vs Monolith",
+  },
+  {
+    id: "web-vitals",
+    label: "Core Web Vitals",
+    value: "100/100",
+    prefix: "",
+    suffix: "",
+    description: "Flawless mobile Google PageSpeed scores across all client PDPs",
+    iconName: "Gauge",
+    change: "Grade A Green Zone",
+  },
+];
+
+export const bentoPerformanceItems = [
+  {
+    id: "image-opt",
+    title: "Next-Gen Image & Media Pipeline",
+    tag: "Asset Delivery",
+    stat: "78% Size Reduction",
+    description: "Automated AVIF & WebP transcoding with responsive picture srcset generation and blur-up placeholders to kill layout shifts.",
+    details: ["Dynamic format negotiation", "Edge CDN edge caching", "Zero Cumulative Layout Shift (CLS 0.0)"],
+    iconName: "Image",
+  },
+  {
+    id: "edge-middleware",
+    title: "Edge Middleware & Geo-Localization",
+    tag: "Edge Routing",
+    stat: "< 15ms Execution",
+    description: "Zero-latency geolocation routing, dynamic currency switching, and instant bot filtration right at the network edge before hitting origin servers.",
+    details: ["Cloudflare & Vercel edge runtime", "Instant currency & catalog matching", "DDoS & bad-bot mitigation"],
+    iconName: "Globe",
+  },
+  {
+    id: "atomic-css",
+    title: "Atomic CSS & Tree-Shaking",
+    tag: "Bundle Optimization",
+    stat: "< 14KB CSS Payload",
+    description: "Zero runtime overhead styling with Tailwind CSS, aggressive dead-code elimination, and selective component hydration for maximum CPU efficiency.",
+    details: ["No CSS-in-JS runtime tax", "Minimal JavaScript parse time", "Sub-50ms Interaction to Next Paint (INP)"],
+    iconName: "Code2",
+  },
+  {
+    id: "anti-friction",
+    title: "Checkout Anti-Friction Architecture",
+    tag: "Conversion Engineering",
+    stat: "+38% Checkout Completion",
+    description: "Single-page accordion checkouts, 1-tap biometric Apple Pay/Google Pay express sheets, predictive address auto-complete, and optimistic cart updates.",
+    details: ["Native browser payment sheets", "Stripe Elements tokenization", "Resilient offline cart persistence"],
+    iconName: "CheckCircle2",
+  },
+];
