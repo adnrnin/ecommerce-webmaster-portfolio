@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Niall V. | Senior Webmaster & E-Commerce Developer Portfolio",
+  title: "Niall.M | Senior Webmaster & E-Commerce Developer Portfolio",
   description:
     "Principal Frontend Engineer & Senior E-Commerce Architect specializing in Next.js headless storefronts, Shopify APIs, MedusaJS, custom checkout flows, and sub-second web performance.",
   keywords: [
@@ -16,9 +16,12 @@ export const metadata: Metadata = {
     "Conversion Rate Optimization",
     "Core Web Vitals",
   ],
-  authors: [{ name: "Niall V." }],
+  authors: [{ name: "Niall.M" }],
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
-    title: "Niall V. | Senior E-Commerce Architect Portfolio",
+    title: "Niall.M | Senior E-Commerce Architect Portfolio",
     description:
       "Architecting scalable e-commerce platforms, high-conversion checkouts, and custom web solutions.",
     type: "website",

@@ -42,7 +42,7 @@ export const Navbar: React.FC = () => {
             </div>
             <div>
               <div className="text-sm font-bold tracking-tight text-white flex items-center gap-1.5">
-                <span>NIALL V.</span>
+                <span>NIALL.M</span>
                 <span className="text-[10px] uppercase font-mono px-1.5 py-0.2 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 rounded">
                   E-COM ARCHITECT
                 </span>

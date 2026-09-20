@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               <ShoppingBag className="w-4 h-4 text-emerald-400" />
             </div>
             <div>
-              <div className="text-white font-bold text-sm tracking-tight">NIALL V.</div>
+              <div className="text-white font-bold text-sm tracking-tight">NIALL.M</div>
               <p className="text-[11px] text-slate-400">
                 Principal Frontend & Senior E-Commerce Architect
               </p>
@@ -93,7 +93,7 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="text-slate-400 font-mono">
-            © {new Date().getFullYear()} Niall V. All rights reserved. Zero-config Vercel build.
+            © {new Date().getFullYear()} Niall.M. All rights reserved. Zero-config Vercel build.
           </div>
         </div>
       </div>

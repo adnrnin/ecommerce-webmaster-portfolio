@@ -115,12 +115,12 @@ export const ContactSection: React.FC = () => {
                   <div>
                     <div className="text-[10px] text-slate-400 font-mono">DIRECT INBOX</div>
                     <div className="text-xs font-mono font-bold text-slate-200">
-                      niall@ecommerce-architect.dev
+                      niall@nialluk.com
                     </div>
                   </div>
                 </div>
                 <button
-                  onClick={() => handleCopy("email", "niall@ecommerce-architect.dev")}
+                  onClick={() => handleCopy("email", "niall@nialluk.com")}
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
                     copiedEmail
                       ? "bg-emerald-600 text-white"
@@ -141,12 +141,12 @@ export const ContactSection: React.FC = () => {
                   <div>
                     <div className="text-[10px] text-slate-400 font-mono">TELEGRAM DIRECT</div>
                     <div className="text-xs font-mono font-bold text-slate-200">
-                      @niall_ecommerce
+                      @nialluk
                     </div>
                   </div>
                 </div>
                 <button
-                  onClick={() => handleCopy("telegram", "@niall_ecommerce")}
+                  onClick={() => handleCopy("telegram", "@nialluk")}
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
                     copiedTelegram
                       ? "bg-cyan-600 text-white"

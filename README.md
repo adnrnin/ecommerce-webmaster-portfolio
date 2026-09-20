@@ -1,4 +1,4 @@
-# Niall V. | Senior Webmaster & E-Commerce Developer Portfolio
+# Niall.M | Senior Webmaster & E-Commerce Developer Portfolio
 
 A production-ready, high-converting portfolio website designed for a **Senior Webmaster & E-Commerce Developer**. Engineered with **Next.js 14 (App Router)**, **TypeScript**, **Tailwind CSS**, and **Lucide Icons**.
 
