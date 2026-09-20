@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { caseStudies } from "@/data/caseStudies";
 import { CaseStudy } from "@/types";
 import { CaseStudyModal } from "./CaseStudyModal";
@@ -139,15 +140,13 @@ export const CaseStudies: React.FC = () => {
                     )}
 
                     {study.liveUrl && (
-                      <a
+                      <Link
                         href={study.liveUrl}
-                        target="_blank"
-                        rel="noreferrer"
                         className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-200 text-xs font-semibold border border-slate-800 transition-colors"
                       >
-                        <ExternalLink className="w-3.5 h-3.5" />
+                        <ExternalLink className="w-3.5 h-3.5 text-emerald-400" />
                         <span>Live Demo</span>
-                      </a>
+                      </Link>
                     )}
                   </div>
                 </div>

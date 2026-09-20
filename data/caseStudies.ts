@@ -43,8 +43,8 @@ export const caseStudies: CaseStudy[] = [
       "Supported 45,000 concurrent shoppers during Black Friday without downtime",
     ],
     mockupType: "aura",
-    liveUrl: "https://aura-luxury.demo-store.dev",
-    githubUrl: "https://github.com/webmaster-pro/aura-headless-storefront",
+    liveUrl: "/demo/aura-luxury-apparel",
+    githubUrl: "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
     featured: true,
   },
   {
@@ -89,8 +89,8 @@ export const caseStudies: CaseStudy[] = [
       "Zero overselling incidents across 85,000 live active inventory SKUs",
     ],
     mockupType: "apex",
-    liveUrl: "https://apexgear.demo-market.dev",
-    githubUrl: "https://github.com/webmaster-pro/apex-multivendor-engine",
+    liveUrl: "/demo/apex-gear-marketplace",
+    githubUrl: "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
     featured: true,
   },
   {
@@ -135,8 +135,8 @@ export const caseStudies: CaseStudy[] = [
       "Reduced customer support subscription tickets by 53%",
     ],
     mockupType: "nova",
-    liveUrl: "https://novabotanics.demo-wellness.dev",
-    githubUrl: "https://github.com/webmaster-pro/nova-dtc-subscriptions",
+    liveUrl: "/demo/nova-botanics-dtc",
+    githubUrl: "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
     featured: true,
   },
   {
@@ -181,8 +181,8 @@ export const caseStudies: CaseStudy[] = [
       "Processed transactions in 42 currencies with zero reconciliation discrepancy",
     ],
     mockupType: "quantum",
-    liveUrl: "https://quantumpay.demo-fintech.dev",
-    githubUrl: "https://github.com/webmaster-pro/quantum-pay-engine",
+    liveUrl: "/demo/quantum-pay-fraud-shield",
+    githubUrl: "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
     featured: true,
   },
 ];

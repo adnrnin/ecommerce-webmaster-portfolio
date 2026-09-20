@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
+import Link from "next/link";
 import { CaseStudy } from "@/types";
 import { X, ExternalLink, Github, CheckCircle2, Cpu, ShieldCheck, ArrowRight, Layers, Sparkles } from "lucide-react";
 
@@ -171,15 +172,14 @@ export const CaseStudyModal: React.FC<CaseStudyModalProps> = ({ caseStudy, onClo
               </a>
             )}
             {caseStudy.liveUrl && (
-              <a
+              <Link
                 href={caseStudy.liveUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold border border-slate-700 transition-colors"
+                onClick={onClose}
+                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs shadow-glow-emerald transition-colors"
               >
                 <ExternalLink className="w-3.5 h-3.5" />
-                <span>Live Environment</span>
-              </a>
+                <span>Open Live Demo</span>
+              </Link>
             )}
           </div>
 
