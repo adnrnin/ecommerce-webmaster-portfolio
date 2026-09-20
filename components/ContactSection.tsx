@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { ContactFormData } from "@/types";
-import { Send, Check, Copy, Mail, MessageSquare, ShieldCheck, Sparkles, AlertCircle, ArrowUpRight } from "lucide-react";
+import { Send, Check, Copy, Mail, MessageSquare, Phone, ShieldCheck, Sparkles, AlertCircle, ArrowUpRight } from "lucide-react";
 
 export const ContactSection: React.FC = () => {
   const [formData, setFormData] = useState<ContactFormData>({
@@ -18,6 +18,7 @@ export const ContactSection: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [copiedTelegram, setCopiedTelegram] = useState(false);
+  const [copiedWhatsapp, setCopiedWhatsapp] = useState(false);
 
   const availableScopes = [
     "Headless Migration",
@@ -47,14 +48,17 @@ export const ContactSection: React.FC = () => {
     });
   };
 
-  const handleCopy = (type: "email" | "telegram", text: string) => {
+  const handleCopy = (type: "email" | "telegram" | "whatsapp", text: string) => {
     navigator.clipboard.writeText(text);
     if (type === "email") {
       setCopiedEmail(true);
       setTimeout(() => setCopiedEmail(false), 2000);
-    } else {
+    } else if (type === "telegram") {
       setCopiedTelegram(true);
       setTimeout(() => setCopiedTelegram(false), 2000);
+    } else {
+      setCopiedWhatsapp(true);
+      setTimeout(() => setCopiedWhatsapp(false), 2000);
     }
   };
 
@@ -156,6 +160,48 @@ export const ContactSection: React.FC = () => {
                   {copiedTelegram ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
                   <span>{copiedTelegram ? "Copied!" : "Copy"}</span>
                 </button>
+              </div>
+
+              {/* WhatsApp Copy & Direct Box */}
+              <div className="bg-[#0b101c] border border-slate-800 rounded-xl p-3 flex items-center justify-between">
+                <div className="flex items-center space-x-3">
+                  <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-400">
+                    <Phone className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-[10px] text-slate-400 font-mono">WHATSAPP DIRECT</div>
+                    <a
+                      href="https://wa.me/447446317825"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-xs font-mono font-bold text-slate-200 hover:text-emerald-400 transition-colors"
+                    >
+                      +44 7446317825
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <a
+                    href="https://wa.me/447446317825"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-emerald-950/80 border border-emerald-500/30 text-emerald-300 hover:bg-emerald-900/60 transition-all flex items-center gap-1"
+                  >
+                    <span>Chat</span>
+                    <ArrowUpRight className="w-3 h-3" />
+                  </a>
+                  <button
+                    onClick={() => handleCopy("whatsapp", "+44 7446317825")}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all ${
+                      copiedWhatsapp
+                        ? "bg-emerald-600 text-white"
+                        : "bg-slate-800 hover:bg-slate-700 text-slate-300"
+                    }`}
+                  >
+                    {copiedWhatsapp ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                    <span>{copiedWhatsapp ? "Copied!" : "Copy"}</span>
+                  </button>
+                </div>
               </div>
             </div>
 

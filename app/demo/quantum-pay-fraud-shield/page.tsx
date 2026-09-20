@@ -90,6 +90,7 @@ export default function QuantumPayDemo() {
         title="Quantum Pay & Fraud Shield"
         category="Custom Global Checkout & Edge Fraud Defense (Stripe Radar + Cloudflare Workers)"
         metricBadge="99.98% Clean Rate | < 95ms Edge Latency"
+        githubUrl="https://github.com/niallmuk/quantum-pay-fraud-shield"
       />
 
       {/* Sub-Header: Global FX & Multi-Currency Engine */}

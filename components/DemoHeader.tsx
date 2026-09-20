@@ -16,7 +16,7 @@ export const DemoHeader: React.FC<DemoHeaderProps> = ({
   title,
   category,
   metricBadge,
-  githubUrl = "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
+  githubUrl = "https://github.com/niallmuk",
   architectureDetailsUrl = "/#case-studies",
 }) => {
   return (

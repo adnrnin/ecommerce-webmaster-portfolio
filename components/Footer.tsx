@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { ShoppingBag, Github, Twitter, Linkedin, ArrowUp, ShieldCheck, Terminal } from "lucide-react";
+import { ShoppingBag, Github, ArrowUp } from "lucide-react";
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -64,31 +64,13 @@ export const Footer: React.FC = () => {
 
           <div className="flex items-center space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/niallmuk/"
               target="_blank"
               rel="noreferrer"
               className="text-slate-400 hover:text-white transition-colors"
               aria-label="GitHub"
             >
               <Github className="w-4 h-4" />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noreferrer"
-              className="text-slate-400 hover:text-white transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter className="w-4 h-4" />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noreferrer"
-              className="text-slate-400 hover:text-white transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="w-4 h-4" />
             </a>
           </div>
 

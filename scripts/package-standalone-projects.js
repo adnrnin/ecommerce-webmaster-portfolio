@@ -144,7 +144,7 @@ export default function RootLayout({
         <span className="text-[10px] px-2 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-800 font-mono">PRODUCTION DEMO</span>
       </div>
       <div className="text-xs font-mono text-slate-400">
-        Architect: <strong className="text-white">Niall.M</strong> (<a href="mailto:niall@nialluk.com" className="text-emerald-400 hover:underline">niall@nialluk.com</a>)
+        Architect: <strong className="text-white">Niall.M</strong> (<a href="mailto:niall@nialluk.com" className="text-emerald-400 hover:underline">niall@nialluk.com</a> | <a href="https://wa.me/447446317825" target="_blank" rel="noreferrer" className="text-emerald-400 hover:underline">WhatsApp: +44 7446317825</a>)
       </div>
     </header>`
   );
@@ -158,7 +158,7 @@ export default function RootLayout({
 ${proj.description}
 
 Architected by **Niall.M**  
-Contact: [niall@nialluk.com](mailto:niall@nialluk.com) | Telegram: [@nialluk](https://t.me/nialluk)
+Contact: [niall@nialluk.com](mailto:niall@nialluk.com) | Telegram: [@nialluk](https://t.me/nialluk) | WhatsApp: [+44 7446317825](https://wa.me/447446317825)
 
 ---
 
@@ -189,13 +189,13 @@ npm run start
 
 ## 🌐 Deploy to Vercel
 
-1. Create a new repository on GitHub and push this code:
+1. Push to GitHub:
    \`\`\`bash
    git init
    git add .
    git commit -m "feat: initial commit for ${proj.slug}"
    git branch -M main
-   git remote add origin <your-repo-url>
+   git remote add origin https://github.com/niallmuk/${proj.slug}.git
    git push -u origin main
    \`\`\`
 2. Import the repository in [Vercel](https://vercel.com/new).

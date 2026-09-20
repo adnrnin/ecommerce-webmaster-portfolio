@@ -85,6 +85,7 @@ export default function NovaBotanicsDemo() {
         title="Nova Botanics DTC"
         category="High-Volume DTC Subscription Engine (Stripe Billing + Webhooks)"
         metricBadge="+28% Retention | 1-Click Self-Service"
+        githubUrl="https://github.com/niallmuk/nova-botanics-dtc"
       />
 
       {/* Subscriber Top Status Strip */}

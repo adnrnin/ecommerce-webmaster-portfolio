@@ -44,7 +44,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     mockupType: "aura",
     liveUrl: "/demo/aura-luxury-apparel",
-    githubUrl: "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
+    githubUrl: "https://github.com/niallmuk/aura-luxury-apparel",
     featured: true,
   },
   {
@@ -90,7 +90,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     mockupType: "apex",
     liveUrl: "/demo/apex-gear-marketplace",
-    githubUrl: "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
+    githubUrl: "https://github.com/niallmuk/apex-gear-marketplace",
     featured: true,
   },
   {
@@ -136,7 +136,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     mockupType: "nova",
     liveUrl: "/demo/nova-botanics-dtc",
-    githubUrl: "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
+    githubUrl: "https://github.com/niallmuk/nova-botanics-dtc",
     featured: true,
   },
   {
@@ -182,7 +182,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     mockupType: "quantum",
     liveUrl: "/demo/quantum-pay-fraud-shield",
-    githubUrl: "https://github.com/adnrnin/ecommerce-webmaster-portfolio",
+    githubUrl: "https://github.com/niallmuk/quantum-pay-fraud-shield",
     featured: true,
   },
 ];

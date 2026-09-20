@@ -101,6 +101,7 @@ export default function ApexMarketplaceDemo() {
         title="Apex Gear Marketplace"
         category="Multi-Vendor B2B & B2C Marketplace (MedusaJS + Stripe Connect)"
         metricBadge="120K+ Monthly Orders | Automated Split-Payouts"
+        githubUrl="https://github.com/niallmuk/apex-gear-marketplace"
       />
 
       {/* Role Switcher Toolbar */}

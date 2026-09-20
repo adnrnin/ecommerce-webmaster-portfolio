@@ -134,6 +134,7 @@ export default function AuraLuxuryApparelDemo() {
         title="Aura Luxury Apparel"
         category="Headless Fashion Storefront (Next.js 14 + Shopify API)"
         metricBadge="⚡ 0.8s TTFB | +42% Mobile CRO"
+        githubUrl="https://github.com/niallmuk/aura-luxury-apparel"
       />
 
       {/* Storefront Sub-Navigation */}
